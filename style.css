@@ -85,7 +85,7 @@ body {
 }
 
 .movie__grid--search {
-    padding-top: 24px;
+    padding-top: 40px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 25px;
@@ -157,7 +157,9 @@ body {
 /* Movie Card */
 
 .movie-card { 
-
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     background-color: #1e293b;
     border-radius: 10px;
     overflow: hidden;
@@ -207,6 +209,7 @@ body {
 
 .details-button {
     width: 100%;
+    margin-top: auto;
     padding: 10px;
     border: none;
     border-radius: 6px;

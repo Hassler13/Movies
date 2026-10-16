@@ -2,7 +2,7 @@
 // Poster API requests: http://img.omdbapi.com/?apikey=[yourkey]&
 // KEY: 485a4ccb
 async function main() {
-    const movies = await fetch("http://www.omdbapi.com/?apikey=485a4ccb&s=transformers ")
+    const movies = await fetch("http://www.omdbapi.com/?apikey=485a4ccb&s=movie");
     const movieData = await movies.json();
     const movieCardEl = document.querySelector('.movie-grid');
     console.log(movieData)
