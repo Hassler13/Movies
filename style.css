@@ -187,6 +187,9 @@ body {
 /* Movie Info */
 
 .movie-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1; 
     padding: 18px;
 }
 .movie-info h3 {
